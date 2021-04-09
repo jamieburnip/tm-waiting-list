@@ -24,3 +24,9 @@ The body should be JSON and contain `emailAddress` and `mobileNumber` fields
 
 - You're welcome to use any method of styling you feel comfortable with. We use styled-components at Ticketmaster but we don't expect you to learn a new library for this exercise!
 - You are encouraged to add comments in the code, or by extending this readme file explaining logic or reasoning for your decisions.
+
+## Notes from Jamie
+
+- The boiler plate I've used for this is from an old project that used styled components, if I didn't use styled components I would have used CSS modules.
+- I didn't use TypeScript because the project wasn't set up originally like that so I was concerned it wasn't what you were looking for. Usually TS is my go to for React or Vue.
+- Install with yarn then `yarn dev` to run.

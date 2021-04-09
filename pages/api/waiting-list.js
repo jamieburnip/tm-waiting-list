@@ -9,16 +9,17 @@ export default async function handler(req, res) {
       if (emailAddress.includes("alreadysubscribed@")) {
         return res.status(400).json({
           status: "error",
-          message: "You have already been added to the waiting list"
+          message: "You have already been added to the waiting list",
         });
       }
+
       return res.status(200).json({
-        status: "success"
+        status: "success",
       });
     } else {
       return res.status(400).json({
         status: "error",
-        message: "Email and mobile number must be provided"
+        message: "Email and mobile number must be provided",
       });
     }
   } else {
